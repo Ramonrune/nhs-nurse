@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecf0f1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:id="@+id/institutionImageImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hospital_64x64"
+
+                    tools:cardCornerRadius="100dp" />
+
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/institutionNameTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:text="@string/selectInstitution"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp" />
+
+
+
+                </LinearLayout>
+
+
+                <ImageButton
+                    android:padding="10dp"
+                    android:id="@+id/logoffImageImageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="24dp"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logout"
+
+                    tools:cardCornerRadius="100dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/containerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/relative_layout_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="healthsystemapp.com.example.tcc.healthsystemapp.MainActivity"
+            >
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.design.widget.BottomNavigationView
+
+
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation" />
+    </FrameLayout>
+
+</LinearLayout>

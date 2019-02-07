@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">NHS Nurse</string>
+    <string name="title_patients">Patient</string>
+    <string name="title_nfcreader">NFC Reader</string>
+    <string name="title_settings">Configurations</string>
+    <string name="text_password">Password</string>
+    <string name="valid_email">E-mail cant be empty!</string>
+    <string name="valid_password">Password cant be empty!</string>
+    <string name="invalid_email">Invalid e-mail!</string>
+    <string name="user_not_found">User not found!</string>
+    <string name="user_not_found_blocked_access">Access denied!</string>
+    <string name="user_not_found_description">User not found!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginInsideApp">Entering...</string>
+    <string name="healthInstitutions">Institutions</string>
+    <string name="home">Home</string>
+    <string name="selecionar">Select</string>
+    <string name="select">Select</string>
+    <string name="loadingHealthInstitutions">Loading health institutions</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="title_new_attendance">New</string>
+    <string name="title_home">Home</string>
+    <string name="welcomeTo">Welcome to</string>
+    <string name="attendance">Attend</string>
+    <string name="title_institution">Institutions</string>
+    <string name="loading">Loading...</string>
+    <string name="logoff">Logoff</string>
+    <string name="logoffMessage">Do you want logoff ?</string>
+    <string name="yesOption">Yes</string>
+    <string name="noOption">No</string>
+    <string name="finalizeProcedures">End procedure</string>
+    <string name="cont">Continue</string>
+    <string name="saving">Saving...</string>
+    <string name="selectInstitution">Select one health institution</string>
+    <string name="noAttendanceInProgress">No attendance in progress :)</string>
+    <string name="noNewPatient">No new patient :)</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="procedures">Procedures</string>
+    <string name="alert">About</string>
+    <string name="infoAbout">This system is about an final year thesis, and its on test phase, being tested by FATEC Americana and Durban University!</string>
+
+
+</resources>

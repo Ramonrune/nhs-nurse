@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">NHS Enfermeira</string>
+    <string name="title_patients">Pacientes</string>
+    <string name="title_nfcreader">Leitor NFC</string>
+    <string name="title_settings">Configurações</string>
+    <string name="text_password">Senha</string>
+    <string name="valid_email">E-mail não pode ser vazio!</string>
+    <string name="valid_password">Senha não pode ser vazia!</string>
+    <string name="invalid_email">E-mail inválido!</string>
+    <string name="user_not_found">Usuário não encontrado</string>
+    <string name="user_not_found_blocked_access">O usuário informado não possui acesso as funcionalidades desse aplicativo!</string>
+    <string name="user_not_found_description">O usuário informado não foi encontrado!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginInsideApp">Entrando...</string>
+    <string name="healthInstitutions">Instituições</string>
+    <string name="home">Home</string>
+    <string name="selecionar">Selecionar</string>
+    <string name="select">Selecionar</string>
+    <string name="loadingHealthInstitutions">Carregando instituições de saúde</string>
+    <string name="title_attendance">Atendimentos</string>
+    <string name="title_new_attendance">Novo</string>
+    <string name="title_home">Home</string>
+    <string name="welcomeTo">Seja bem vindo a(o)</string>
+    <string name="attendance">Atender</string>
+    <string name="title_institution">Instituições</string>
+    <string name="loading">Carregando...</string>
+    <string name="logoff">Logoff</string>
+    <string name="logoffMessage">Deseja sair ?</string>
+    <string name="yesOption">Sim</string>
+    <string name="noOption">Não</string>
+    <string name="finalizeProcedures">Finalizar procedimentos</string>
+    <string name="cont">Continuar</string>
+    <string name="saving">Salvando...</string>
+    <string name="selectInstitution">Selecione uma instituição</string>
+    <string name="noAttendanceInProgress">Nenhum atendimento em progresso :)</string>
+    <string name="noNewPatient">Nenhum novo paciente :)</string>
+    <string name="diagnosis">Diagnóstico médico</string>
+    <string name="procedures">Procedimentos</string>
+    <string name="alert">Aviso</string>
+    <string name="infoAbout">Este sistema se trata de um TCC e está em fase de teste! Testes estão sendo feitos pela FATEC Americana e DURBAN University</string>
+</resources>

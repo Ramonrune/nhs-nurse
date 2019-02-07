@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nhsmedic.com.tcc.nhsappmedic.procedures.ProcedureController">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:background="@drawable/gradient"
+                            android:orientation="vertical">
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/patientImageView"
+                                        android:layout_width="125dp"
+                                        android:layout_height="125dp"
+                                        android:layout_gravity="center_vertical|center_horizontal"
+                                        android:gravity="center"
+                                        android:paddingTop="16dp"
+                                        android:src="@drawable/user" />
+
+                                    <TextView
+                                        android:id="@+id/patientTextView"
+                                        android:layout_width="match_parent"
+
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_horizontal"
+                                        android:gravity="center"
+                                        android:paddingTop="8dp"
+                                        android:text="Nome do usuario"
+                                        android:textColor="#ffffff"
+                                        android:textSize="18sp" />
+
+                                </LinearLayout>
+
+                            </ScrollView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:id="@+id/physicianImageView"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:paddingRight="8dp"
+                                android:src="@drawable/user" />
+
+                            <TextView
+                                android:id="@+id/physicianNameTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="Atendido por Nome do médico"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/diagnosis"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/diagnosisEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ems="10"
+                                android:inputType="textMultiLine" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/procedures"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/proceduresEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ems="10"
+                                android:inputType="textMultiLine" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="21dp"
+                            android:layout_marginBottom="7dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+
+                            <Button
+                                android:id="@+id/finalizeProceduresButton"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:text="@string/finalizeProcedures"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</FrameLayout>
