@@ -187,7 +187,7 @@ public class HomeController extends Fragment {
         public RabbitMQHandler() {
             factory = new ConnectionFactory();
 
-            String uri = "amqp://aovdehgg:qTbF0k3KF2O2GRn9WSOwcwlvaevLhkFJ@buffalo.rmq.cloudamqp.com/aovdehgg";
+            String uri = "amqp://";
             try {
                 factory.setAutomaticRecoveryEnabled(false);
                 factory.setUri(uri);
