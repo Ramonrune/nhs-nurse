@@ -104,7 +104,7 @@ public class HomeController extends Fragment {
         if (isAdded()) {
             PusherOptions options = new PusherOptions();
             options.setCluster("us2");
-            pusher = new Pusher("6ba2a6129f4cf6d110a6", options);
+            pusher = new Pusher("", options);
             HealthInstitutionSharedPreferences healthInstitutionSharedPreferences = new HealthInstitutionSharedPreferences(getContext());
 
             com.pusher.client.channel.Channel channel = pusher.subscribe(healthInstitutionSharedPreferences.getHealthInstitutionId() + ";nurse");
