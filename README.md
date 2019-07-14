@@ -27,7 +27,7 @@ Diversos requisitos foram coletados de forma dinâmica com as equipes sul africa
 Todo o desenvolvimento do sistema se voltou para agregar valor aos processos e interfaces de usuário (se focando em facilidade de uso e experiencia de usuário).
 Os resultados foram dois aplicativos publicados na Google Play e um sistema computadorizado, sendo que os três estão em fase de testes na África do Sul.
 Conclui-se que o sistema poderá auxiliar muito no ambiente da saúde, facilitando a gestão, fornecendo processos inteligentes e uma maior agilidade no atendimento, permitindo com que pacientes possuam acesso a seus dados de saúde, e com que funcionários de saúde possuam uma maior facilidade e uma maior quantidade de dados relevantes para análise durante os atendimentos.
-<br>
+
 ```
 O aplicativo do(a) enfermeira é utilizado em conjunto com o sistema desktop. Quando um(a) médico(a) adiciona um diagnóstico para um paciente, ele pode escolher a opção de enviar o paciente para a enfermagem da instituição para que determinados procedimentos sejam realizados. Ao inicializar o sistema de enfermagem, a tela de autenticação será carregada.
 
